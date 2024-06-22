@@ -17,7 +17,6 @@
 }
 
 html {
-  overflow-x: hidden;
   scroll-behavior: smooth;
 }
 
@@ -35,7 +34,7 @@ h1 {
 }
 
 p {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 400;
 }
 
@@ -129,7 +128,7 @@ header button img:hover {
 #nav-menu-wrapper nav ul li a {
   color: var(--light-primary);
   font-size: 4rem;
-  font-weight: 600;
+  font-weight: 900;
   text-decoration: none;
   transition: color 300ms ease;
 }
@@ -407,6 +406,11 @@ header button img:hover {
 #contact p a {
   color: var(--accent-primary);
   text-decoration: none;
+  transition: color 300ms ease;
+}
+
+#contact p a:hover {
+  color: var(--accent-secondary);
 }
 
 /* Footer */
