@@ -17,6 +17,7 @@
 }
 
 html {
+  overflow-x: hidden;
   scroll-behavior: smooth;
 }
 
@@ -288,7 +289,7 @@ header button img:hover {
 
 #logos {
   background-color: var(--dark-tertiary);
-  overflow: hidden;
+  overflow-x: hidden;
   padding: 60px 0;
   white-space: nowrap;
 }
