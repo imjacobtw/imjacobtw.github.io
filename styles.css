@@ -531,7 +531,11 @@ footer .nav-menu-social-links-list {
   }
 
   #landing p {
-    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+
+  #about-me {
+    padding-top: 20px;
   }
 
   #nav-menu-wrapper nav ul li a {
