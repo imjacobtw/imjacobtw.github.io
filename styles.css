@@ -352,7 +352,7 @@ header button img:hover {
 
 #projects-grid {
   display: grid;
-  gap: 20px;
+  gap: 30px;
   grid-template: auto auto / 1fr 1fr;
   margin-top: 2rem;
   width: 100%;
@@ -531,11 +531,7 @@ footer .nav-menu-social-links-list {
   }
 
   #landing p {
-    margin-bottom: 5vh;
-  }
-
-  #about-me-wrapper {
-    margin-top: 5vh;
+    margin-bottom: 20px;
   }
 
   #nav-menu-wrapper nav ul li a {

@@ -1,13 +1,13 @@
 const navMenu = document.getElementById('nav-menu')
-const body = document.querySelector('body')
+const bodyWrapper = document.getElementById('body-wrapper')
 
 function navMenuOpen() {
     navMenu.style.transform = 'translateY(0%)'
-    body.style.overflowY = 'hidden'
+    bodyWrapper.style.overflowY = 'hidden'
 }
 
 function navMenuClose() {
     navMenu.style.transform = 'translateY(-100%)'
-    body.style.overflowY = 'visible'
+    bodyWrapper.style.overflowY = 'visible'
 }
 
