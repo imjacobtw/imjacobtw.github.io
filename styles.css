@@ -18,7 +18,7 @@
 
 html {
   scroll-behavior: smooth;
-  scrollbar-gutter: stable both-edges;
+  scrollbar-gutter: stable;
 }
 
 body {
@@ -404,7 +404,8 @@ header button img:hover {
   background-color: var(--dark-secondary);
   display: flex;
   justify-content: center;
-  padding-bottom: 2rem;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
   width: 100vw;
 }
 
