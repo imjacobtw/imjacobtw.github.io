@@ -18,10 +18,11 @@
 
 html {
   scroll-behavior: smooth;
+  scrollbar-gutter: stable both-edges;
 }
 
 body {
-  background-color: var(--dark-secondary);
+  background-color: var(--dark-primary);
   color: var(--light-primary);
   font-family: var(--font-sans-serif);
   margin: 0;
@@ -183,7 +184,7 @@ header button img:hover {
 
 #landing {
   align-items: center;
-  background-image: url("./assets/images/landing-section-background.svg");
+  background-image: url("./assets/images/misc/landing-section-background.svg");
   background-position: bottom;
   display: flex;
   flex-direction: column;
@@ -209,12 +210,12 @@ header button img:hover {
 /* About Me */
 #about-me-wrapper {
   align-items: end;
-  background-image: url("./assets/images/about-me-section-background.svg");
+  background-image: url("./assets/images/misc/about-me-section-background.svg");
   background-position: top;
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
-  margin-bottom: 10vh;
+  padding-bottom: 10vh;
   width: 100%;
 }
 
@@ -252,6 +253,7 @@ header button img:hover {
 }
 
 #about-me-text-wrapper p {
+  font-size: 24px;
   margin: 24px 0;
 }
 
@@ -272,9 +274,10 @@ header button img:hover {
 /* Skills */
 #skills {
   align-items: center;
+  background-color: var(--dark-secondary);
   display: flex;
   flex-direction: column;
-  margin-bottom: 10vh;
+  padding-bottom: 10vh;
   width: 100%;
 }
 
@@ -326,9 +329,10 @@ header button img:hover {
 
 /* Projects */
 #projects-wrapper {
+  background-color: var(--dark-secondary);
   display: flex;
   justify-content: center;
-  margin-bottom: 10vh;
+  padding-bottom: 10vh;
   width: 100%;
 }
 
@@ -352,7 +356,7 @@ header button img:hover {
   display: grid;
   gap: 30px;
   grid-template: auto auto / 1fr 1fr;
-  margin-top: 2rem;
+  padding-top: 2rem;
   width: 100%;
 }
 
@@ -380,6 +384,12 @@ header button img:hover {
   font-size: 2rem;
   margin: 0;
   text-align: center;
+  margin-bottom: 20px;
+}
+
+.project-card img {
+  border-radius: 20px;
+  width: 100%;
 }
 
 .project-card p {
@@ -391,6 +401,7 @@ header button img:hover {
 /* Contact Me */
 #contact-wrapper {
   align-items: center;
+  background-color: var(--dark-secondary);
   display: flex;
   justify-content: center;
   width: 100vw;
@@ -418,11 +429,11 @@ header button img:hover {
 
 /* Footer */
 #footer-wrapper {
-  background-color: var(--dark-primary);
+  background-color: var(--dark-secondary);
   display: flex;
   height: 20vh;
   justify-content: center;
-  margin-top: 10vh;
+  padding-top: 10vh;
   width: 100%;
 }
 
