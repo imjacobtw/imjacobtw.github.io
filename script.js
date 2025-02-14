@@ -1,12 +1,14 @@
 function navMenuOpen() {
   document.getElementById("nav-menu").style.transform = "translateY(0%)";
-  document.querySelector("body").style.height = "100%";
+  document.querySelector("body").style.maxHeight = "max-height: 100vh;";
+  document.querySelector("body").style.touchAction = "none";
   document.querySelector("body").style.overflowY = "hidden";
 }
 
 function navMenuClose() {
   document.getElementById("nav-menu").style.transform = "translateY(-100%)";
-  document.querySelector("body").style.height = "auto";
+  document.querySelector("body").style.maxHeight = "none";
+  document.querySelector("body").style.touchAction = "auto";
   document.querySelector("body").style.overflowY = "visible";
 }
 
