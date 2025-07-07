@@ -1,0 +1,54 @@
+#contact-container {
+  background: url("../assets/images/contact-background.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: fit-content;
+}
+
+#contact {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0rem 1rem;
+  padding-bottom: 200px;
+  text-align: center;
+  width: 900px;
+}
+
+#contact h2 {
+  margin-bottom: 40px;
+}
+
+#contact p {
+  margin-bottom: 40px;
+  width: 80%;
+}
+
+#contact > .socials-list > li {
+  height: 4rem;
+  transition: 300ms ease-in-out background-color;
+  width: 4rem;
+}
+
+#contact > .socials-list > li > a {
+  height: 100%;
+  transition: 300ms ease-in-out background-color;
+  width: 100%;
+}
+
+#contact > .socials-list > li > a:hover {
+  filter: invert(59%) sepia(67%) saturate(538%) hue-rotate(180deg) brightness(101%) contrast(87%);
+}
+
+@media (max-width: 600px) {
+  #contact p {
+    width: 90%;
+  }
+
+  #contact > .socials-list > li {
+    height: 3rem;
+    width: 3rem;
+  }
+}
