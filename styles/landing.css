@@ -100,7 +100,17 @@
   }
 
   #landing-buttons-container a[href="#contact"] {
+    background-color: #319af5;
     margin: 0;
     margin-top: 1rem;
+  }
+
+  #landing-buttons-container a[href="#contact"]:hover {
+    background-color: #67aeef;
+    color: #fcf8e8;
+  }
+
+  #landing-buttons-container a[href="#about"] {
+    display: none;
   }
 }
